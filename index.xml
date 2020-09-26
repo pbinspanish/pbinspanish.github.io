@@ -5,6 +5,16 @@
     <link>http://pbinspanish.github.io/</link>
     <description>Recent content on Josiah Henson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language><atom:link href="http://pbinspanish.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-ca</language>
+    <lastBuildDate>Sat, 26 Sep 2020 15:07:39 -0400</lastBuildDate><atom:link href="http://pbinspanish.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The One and Only Test Post</title>
+      <link>http://pbinspanish.github.io/posts/the-one-and-only-test-post/</link>
+      <pubDate>Sat, 26 Sep 2020 15:07:39 -0400</pubDate>
+      
+      <guid>http://pbinspanish.github.io/posts/the-one-and-only-test-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-no-longer-a-draft&#34;&gt;This is no longer a draft.&lt;/h1&gt;</description>
+    </item>
+    
   </channel>
 </rss>

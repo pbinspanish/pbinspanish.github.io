@@ -2,7 +2,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --background-transparent: rgba(255, 255, 255, 0.5);
+        --background-transparent: rgba(255, 255, 255, 0.8);
 
         --link: #464646;
         --link-hover: #000000;
@@ -12,7 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-transparent: rgba(0, 0, 0, 0.5);
+        --background-transparent: rgba(0, 0, 0, 0.8);
 
         --link: #FAFAFA;
         --link-hover: #ffffff;
@@ -26,7 +26,8 @@ body {
 
 .custom-nav-link {
     color: var(--link);
-    transition: border-bottom 0.05s, color 0.05s;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.0);
+    transition: border 0.1s, color 0.1s;
 }
 .custom-nav-link:hover {
     color: var(--link-hover);
@@ -40,7 +41,7 @@ img {
 
 .custom-nav-background {
     background-color: var(--background-transparent);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(25px);
 }
 
 .index-background {

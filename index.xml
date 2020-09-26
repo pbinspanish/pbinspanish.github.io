@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minimal</title>
-    <link>http://example.com/</link>
-    <description>Recent content on Minimal</description>
+    <title>Josiah Henson</title>
+    <link>http://pbinspanish.github.io/</link>
+    <description>Recent content on Josiah Henson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2020 19:14:37 -0400</lastBuildDate><atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>http://example.com/posts/test/</link>
-      <pubDate>Fri, 25 Sep 2020 19:14:37 -0400</pubDate>
-      
-      <guid>http://example.com/posts/test/</guid>
-      <description>header testlol</description>
-    </item>
-    
+    <language>en-ca</language><atom:link href="http://pbinspanish.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,7 +2,12 @@
 
 @media (prefers-color-scheme: light) {
     :root {
+        --background: #FAFAFA;
+        --background-seconday: #F5F5F5;
         --background-transparent: rgba(255, 255, 255, 0.8);
+
+        --text: #000000;
+        --text-secondary: #616161;
 
         --link: #464646;
         --link-hover: #000000;
@@ -12,7 +17,12 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --background: #212121;
+        --background-seconday: #333333;
         --background-transparent: rgba(0, 0, 0, 0.8);
+
+        --text: #ffffff;
+        --text-secondary: #BDBDBD;
 
         --link: #FAFAFA;
         --link-hover: #ffffff;
@@ -22,6 +32,8 @@
 
 body {
     font-family: 'Lato', 'Segoe UI', sans-serif !important;
+    color: var(--text);
+    background-color: var(--background);
 }
 
 .custom-nav-link {
@@ -31,7 +43,7 @@ body {
 }
 .custom-nav-link:hover {
     color: var(--link-hover);
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid var(--text);
 }
 
 img {
@@ -75,10 +87,27 @@ img {
 }
 
 .footer-link, .footer-link:link, .footer-link:visited, .footer-link:active {
-    color: #000;
-    opacity: 0.5;
+    color: var(--text);
+    opacity: 0.75;
     transition: opacity 0.1s;
 }
 .footer-link:hover {
     opacity: 1.0;
+}
+
+.container-small {
+    max-width: 800px;
+    margin: auto;
+}
+
+.custom-text {
+    color: var(--text);
+}
+
+.footer-colors {
+    background-color: var(--background-seconday);
+}
+
+.list-item {
+    border-bottom: 1px solid var(--text-secondary);
 }

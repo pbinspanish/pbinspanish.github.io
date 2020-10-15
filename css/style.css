@@ -131,3 +131,7 @@ img {
 hr {
     border-color: var(--border);
 }
+
+button > svg {
+    color: var(--text);
+}

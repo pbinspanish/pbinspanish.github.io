@@ -135,3 +135,7 @@ hr {
 button > svg {
     color: var(--text);
 }
+
+code {
+    color: var(--text) !important;
+}

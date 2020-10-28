@@ -4,6 +4,7 @@
     :root {
         --background: #FAFAFA;
         --background-seconday: #F5F5F5;
+        --background-tertiary: #F5F5F5;
         --background-transparent: rgba(255, 255, 255, 0.8);
 
         --text: #000000;
@@ -19,8 +20,9 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #212121;
-        --background-seconday: #333333;
+        --background: #1d1d1d;
+        --background-seconday: #202020;
+        --background-tertiary: #333333;
         --background-transparent: rgba(0, 0, 0, 0.8);
 
         --text: #ffffff;
@@ -121,11 +123,7 @@ img {
 }
 
 .footer-colors {
-    background-color: var(--background-seconday);
-}
-
-.list-item {
-    border-bottom: 1px solid var(--text-secondary);
+    background-color: var(--background-tertiary);
 }
 
 hr {
@@ -136,6 +134,84 @@ button > svg {
     color: var(--text);
 }
 
-code {
-    color: var(--text) !important;
+
+
+/* List Thumbnail */
+.list-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*
+ * MARKDOWN STYLES
+ */
+
+/* Headings */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+
+    margin-top: 4.5rem;
+    margin-bottom: 0rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+
+    margin-top: 3rem;
+    margin-bottom: 0.25rem;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: 0.25rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin-bottom: 0.25rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    margin-bottom: 0.25rem;
+}
+
+/* Code */
+.highlight {
+    padding: 8px;
+}
+.highlight > *, .highlight > * > * {
+    border-radius: 8px !important;
+    padding: 10px;
+}
+
+pre {
+    margin-bottom: 0 !important;
+}
+
+/* Blockquote */
+blockquote {
+    background-color: var(--background-seconday);
+    border-left: solid 6px var(--border);
+
+    padding: 4px;
+    padding-left: 8px;
 }

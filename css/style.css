@@ -134,6 +134,15 @@ button > svg {
     color: var(--text);
 }
 
+.header-title {
+    font-size: 1.25rem; 
+}
+.header-title-link {
+    text-decoration: none !important;
+    color: var(--text);
+}
+
+
 
 
 /* List Thumbnail */

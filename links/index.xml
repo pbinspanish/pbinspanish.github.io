@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Josiah Henson</title>
-    <link>http://pbinspanish.github.io/</link>
-    <description>Recent content on Josiah Henson</description>
+    <title>Links on Josiah Henson</title>
+    <link>http://pbinspanish.github.io/links/</link>
+    <description>Recent content in Links on Josiah Henson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language>
-    <lastBuildDate>Tue, 01 Dec 2020 17:17:07 -0500</lastBuildDate><atom:link href="http://pbinspanish.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-ca</language><atom:link href="http://pbinspanish.github.io/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email</title>
       <link>http://pbinspanish.github.io/links/email/</link>
@@ -86,42 +85,6 @@
       
       <guid>http://pbinspanish.github.io/links/trakt/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>At An Arm&#39;s Length</title>
-      <link>http://pbinspanish.github.io/posts/armslength/</link>
-      <pubDate>Tue, 01 Dec 2020 17:17:07 -0500</pubDate>
-      
-      <guid>http://pbinspanish.github.io/posts/armslength/</guid>
-      <description>As humans, we are wired to want.</description>
-    </item>
-    
-    <item>
-      <title>September 24th, 2019</title>
-      <link>http://pbinspanish.github.io/posts/september24th2019/</link>
-      <pubDate>Sat, 14 Nov 2020 21:10:39 -0500</pubDate>
-      
-      <guid>http://pbinspanish.github.io/posts/september24th2019/</guid>
-      <description>A journal entry from me to me.</description>
-    </item>
-    
-    <item>
-      <title>Another Night</title>
-      <link>http://pbinspanish.github.io/posts/anothernight/</link>
-      <pubDate>Tue, 27 Oct 2020 10:40:46 -0400</pubDate>
-      
-      <guid>http://pbinspanish.github.io/posts/anothernight/</guid>
-      <description>A quick draft of a poem about procrastinating day after day.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://pbinspanish.github.io/about/</link>
-      <pubDate>Sat, 26 Sep 2020 15:07:39 -0400</pubDate>
-      
-      <guid>http://pbinspanish.github.io/about/</guid>
-      <description>My name is Josiah Henson, and I am a Computer Science student studying at the University of Windsor. I&amp;rsquo;m passionate about technology, music, and physical fitness. I love reading books, playing soccer, and experimenting with technology. If I&amp;rsquo;m not on a field or in the gym, I&amp;rsquo;m inside reading a book or hacking away at the next project idea in my head. I want to share the things I&amp;rsquo;m passionate about through this blog, so if any of these things inspire you please feel free to reach out to me.</description>
     </item>
     
   </channel>

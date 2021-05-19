@@ -5,9 +5,9 @@
  */
 @media (prefers-color-scheme: light) {
     :root {
-        --background: #FAFAFA;
-        --background-secondary: #F5F5F5;
-        --background-tertiary: #F5F5F5;
+        --background: #F5F5F5;
+        --background-secondary: #FAFAFA;
+        --background-tertiary: #FFFFFF;
         --background-transparent: rgba(255, 255, 255, 0.8);
 
         --text: #000000;
@@ -166,7 +166,17 @@ button > svg {
 
 .list-container {
     background-color: var(--background-tertiary);
-} 
+    box-shadow: 0 0.25rem 0.25rem 0.1rem rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease;
+}
+
+.list-container:hover {
+    box-shadow: 0 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.75);
+}
+
+.link-icon {
+    margin-top: -2rem;
+}
 
 
 
@@ -239,4 +249,8 @@ blockquote {
 
     padding: 4px;
     padding-left: 8px;
+}
+
+.text-faded {
+    color: var(--text-secondary);
 }

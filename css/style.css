@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/*
+ * Theme-aware colour themes
+ */
 @media (prefers-color-scheme: light) {
     :root {
         --background: #FAFAFA;
-        --background-seconday: #F5F5F5;
+        --background-secondary: #F5F5F5;
         --background-tertiary: #F5F5F5;
         --background-transparent: rgba(255, 255, 255, 0.8);
 
@@ -21,7 +24,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #1d1d1d;
-        --background-seconday: #202020;
+        --background-secondary: #202020;
         --background-tertiary: #333333;
         --background-transparent: rgba(0, 0, 0, 0.8);
 
@@ -36,6 +39,16 @@
     }
 }
 
+
+
+/*
+ * Standard Components
+ */
+body {
+    font-family: 'Lato', 'Segoe UI', sans-serif !important;
+    color: var(--text);
+    background-color: var(--background);
+}
 a, a:link, a:active, a:visited {
     color: var(--text-secondary);
     text-decoration: underline;
@@ -45,11 +58,10 @@ a:hover {
     color: var(--text);
 }
 
-body {
-    font-family: 'Lato', 'Segoe UI', sans-serif !important;
-    color: var(--text);
-    background-color: var(--background);
+.border {
+    border-color: var(--border) !important;
 }
+
 
 .custom-nav-link {
     color: var(--link) !important;
@@ -152,6 +164,10 @@ button > svg {
     object-fit: cover;
 }
 
+.list-container {
+    background-color: var(--background-tertiary);
+} 
+
 
 
 /*
@@ -218,7 +234,7 @@ pre {
 
 /* Blockquote */
 blockquote {
-    background-color: var(--background-seconday);
+    background-color: var(--background-secondary);
     border-left: solid 6px var(--border);
 
     padding: 4px;

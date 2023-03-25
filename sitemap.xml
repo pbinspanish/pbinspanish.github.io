@@ -1,89 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://pbinspanish.github.io/links/email/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/projects/yashpatelphotos/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/linkedin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/projects/posters/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/github/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/twitter/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/instagram/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/youtube/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/goodreads/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/lastfm/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/trakt/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/</loc>
     <lastmod>2020-11-14T21:10:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/posts/</loc>
     <lastmod>2020-11-14T21:10:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/posts/september24th2019/</loc>
     <lastmod>2020-11-14T21:10:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/about/</loc>
     <lastmod>2020-09-26T15:07:39-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/map/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/links/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://pbinspanish.github.io/tags/</loc>
   </url>
-  
 </urlset>

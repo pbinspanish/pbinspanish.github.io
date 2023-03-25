@@ -13,10 +13,6 @@
         --text: #000000;
         --text-secondary: #616161;
 
-        --link: #464646;
-        --link-hover: #000000;
-        --link-disabled: #616161;
-
         --border: #CDCDCD;
     }
 }
@@ -30,10 +26,6 @@
 
         --text: #ffffff;
         --text-secondary: #BDBDBD;
-
-        --link: #FAFAFA;
-        --link-hover: #ffffff;
-        --link-disabled: #BDBDBD;
 
         --border: #333333;
     }
@@ -50,7 +42,7 @@ body {
     background-color: var(--background);
 }
 a, a:link, a:active, a:visited {
-    color: var(--text-secondary);
+    color: var(--text);
     text-decoration: underline;
     transition: color ease 0.1s;
 }
@@ -106,14 +98,14 @@ img {
     font-size: 4em;
     font-weight: 700;
     color: #fff;
-    text-shadow: 0px 0px 15px #000;
+    text-shadow: 0px 0px 10px #000;
 }
 
 .index-p {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    text-shadow: 0px 0px 15px #000;
+    text-shadow: 0px 0px 10px #000;
 }
 
 .footer-link, .footer-link:link, .footer-link:visited, .footer-link:active {

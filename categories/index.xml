@@ -5,6 +5,7 @@
     <link>http://pbinspanish.github.io/categories/</link>
     <description>Recent content in Categories on Josiah Henson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language><atom:link href="http://pbinspanish.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-ca</language>
+    <atom:link href="http://pbinspanish.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

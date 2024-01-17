@@ -5,87 +5,63 @@
     <link>http://pbinspanish.github.io/links/</link>
     <description>Recent content in Links on Josiah Henson</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-ca</language><atom:link href="http://pbinspanish.github.io/links/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-ca</language>
+    <atom:link href="http://pbinspanish.github.io/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Email</title>
       <link>http://pbinspanish.github.io/links/email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/email/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>LinkedIn</title>
       <link>http://pbinspanish.github.io/links/linkedin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/linkedin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Github</title>
       <link>http://pbinspanish.github.io/links/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/github/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Twitter</title>
-      <link>http://pbinspanish.github.io/links/twitter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://pbinspanish.github.io/links/twitter/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Instagram</title>
       <link>http://pbinspanish.github.io/links/instagram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/instagram/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>YouTube</title>
       <link>http://pbinspanish.github.io/links/youtube/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/youtube/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Goodreads</title>
       <link>http://pbinspanish.github.io/links/goodreads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/goodreads/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Last.fm</title>
       <link>http://pbinspanish.github.io/links/lastfm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/lastfm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Trakt.tv</title>
       <link>http://pbinspanish.github.io/links/trakt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://pbinspanish.github.io/links/trakt/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

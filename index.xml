@@ -86,18 +86,18 @@
       <description>A journal entry from me to me.</description>
     </item>
     <item>
-      <title>About Me</title>
-      <link>http://pbinspanish.github.io/about/</link>
-      <pubDate>Sat, 26 Sep 2020 15:07:39 -0400</pubDate>
-      <guid>http://pbinspanish.github.io/about/</guid>
-      <description>My name is Josiah Henson, and I am a Computer Science student studying at the University of Windsor. I&amp;rsquo;m passionate about technology, music, and physical fitness. I love reading books, playing soccer, and experimenting with technology. If I&amp;rsquo;m not on a field or in the gym, I&amp;rsquo;m inside reading a book or hacking away at the next project idea in my head. I want to share the things I&amp;rsquo;m passionate about through this blog, so if any of these things inspire you please feel free to reach out to me.</description>
-    </item>
-    <item>
       <title></title>
       <link>http://pbinspanish.github.io/map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://pbinspanish.github.io/map/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://pbinspanish.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://pbinspanish.github.io/about/</guid>
+      <description>Photo by Yash Patel&#xA;My name is Josiah Henson, and I am a Computer Science student studying at the University of Windsor. I&amp;rsquo;m passionate about technology, music, and physical fitness. I love reading books, playing soccer, and experimenting with technology. If I&amp;rsquo;m not on a field or in the gym, I&amp;rsquo;m inside reading a book or hacking away at the next project idea in my head. I want to share the things I&amp;rsquo;m passionate about through this blog, so if any of these things inspire you please feel free to reach out to me.</description>
     </item>
   </channel>
 </rss>

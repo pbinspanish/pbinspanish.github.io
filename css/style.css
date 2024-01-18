@@ -3,35 +3,36 @@
 /*
  * Theme-aware colour themes
  */
-@media (prefers-color-scheme: light) {
-    :root {
-        --background: #F5F5F5;
-        --background-secondary: #FAFAFA;
-        --background-tertiary: #FFFFFF;
-        --background-transparent: rgba(255, 255, 255, 0.8);
+:root,[data-bs-theme="light"] {
+    --background: #F5F5F5;
+    --background-secondary: #FAFAFA;
+    --background-tertiary: #FFFFFF;
+    --background-transparent: rgba(255, 255, 255, 0.8);
 
-        --text: #000000;
-        --text-secondary: #616161;
+    --text: #000000;
+    --text-secondary: #616161;
 
-        --border: #CDCDCD;
-    }
+    --border: #d8c1c1;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #1d1d1d;
-        --background-secondary: #202020;
-        --background-tertiary: #333333;
-        --background-transparent: rgba(0, 0, 0, 0.8);
+[data-bs-theme="dark"] {
+    --background: #1d1d1d;
+    --background-secondary: #202020;
+    --background-tertiary: #333333;
+    --background-transparent: rgba(0, 0, 0, 0.8);
 
-        --text: #ffffff;
-        --text-secondary: #BDBDBD;
+    --text: #ffffff;
+    --text-secondary: #BDBDBD;
 
-        --border: #333333;
-    }
+    --border: #333333;
 }
 
 
+
+#content {
+    min-height: calc(100vh - 42px);
+    width: 100%;
+}
 
 /*
  * Standard Components
@@ -78,17 +79,13 @@ img {
 
 .index-background {
     background-image: url('/images/hero.jpg');
-    background-position: 33% 50%;
+    background-position: 17% 40%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 42px);
+    width: 100%;
 }
 
-.index-text {
-    height: inherit;
-    width: inherit;
-}
 
 .index-minheight {
     min-height: 25vh;
@@ -98,14 +95,22 @@ img {
     font-size: 4em;
     font-weight: 700;
     color: #fff;
-    text-shadow: 0px 0px 10px #000;
+    text-shadow: 0px 0px 20px #000;
 }
 
 .index-p {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    text-shadow: 0px 0px 10px #000;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.index-a {
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    text-shadow: 0px 0px 20px #000;
+    text-decoration: underline;
 }
 
 .footer-link, .footer-link:link, .footer-link:visited, .footer-link:active {

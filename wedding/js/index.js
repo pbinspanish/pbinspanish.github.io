@@ -2,7 +2,22 @@ var options = {
 	figureTagName: 'a',
 	urlForSize: function (filename, size) {
 		return './img/prep/' + size + '/' + filename;
-	}
+    },
+    getMinAspectRatio: function(lastWindowWidth) {
+        if (lastWindowWidth <= 1280) {
+            return 2;
+        }
+        else if (lastWindowWidth <= 1440) {
+            return 3;
+        }
+        else if (lastWindowWidth <= 1920) {
+            return 4;
+        }
+        else if (lastWindowWidth <= 2560) {
+            return 5;
+        }
+        return 6;
+  },
 }
 
 var imageData = [

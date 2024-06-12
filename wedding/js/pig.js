@@ -300,10 +300,15 @@
        */
       getMinAspectRatio: function(lastWindowWidth) {
         if (lastWindowWidth <= 640) {
+          console.log("smol.");
           return 2;
-        } else if (lastWindowWidth <= 1280) {
+        }
+        else if (lastWindowWidth <= 1280) {
+          console.log("med.");
           return 4;
-        } else if (lastWindowWidth <= 1920) {
+        }
+        else if (lastWindowWidth <= 1920) {
+          console.log("chonky.");
           return 5;
         }
         return 6;

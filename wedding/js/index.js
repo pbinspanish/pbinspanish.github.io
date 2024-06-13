@@ -243,10 +243,20 @@ var imageData = [
     }
 ];
 
+const lightbox = GLightbox({
+    touchNavigation: true
+})
+
 window.onload = function () {
 	var pig = new Pig(imageData, options).enable();
 
-	const lightbox = GLightbox({
-		touchNavigation: true
-	})
+    lightbox.reload();
+};
+
+window.onresize = function () {
+    lightbox.reload();
+};
+
+window.onscroll = function () {
+    lightbox.reload();
 };

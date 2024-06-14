@@ -8,23 +8,48 @@
 
 	<script src="js/glightbox.min.js"></script>
 	<script src="js/pig.js"></script>
+	<script src="js/images.js"></script>
 	<script src="js/index.js"></script>
 
 	<title>Skyler Wedding 2024</title>
 </head>
 
 <body class="bg-emerald-50 dark:bg-emerald-950">
-	<div id="header" class="bg-emerald-100 dark:bg-emerald-900 w-full mb-4">
-		<div class="container mx-auto px-2">
-			<h1 class="font-sans text-emerald-950 dark:text-emerald-50 text-4xl pt-8 pb-2 font-bold">Skyler Wedding</h1>
-			<h2 class="font-sans text-emerald-900 dark:text-emerald-100 text-2xl pb-8 font-semibold">May 18, 2024</h2>
+	<div class="min-h-svh">
+		<div id="header" class="bg-emerald-100 dark:bg-emerald-800 w-full">
+			<div class="container mx-auto px-2">
+				<h1 class="font-sans text-emerald-950 dark:text-emerald-50 text-7xl pt-8 xl:text-4xl pb-4 xl:pb-2 font-bold">Skyler Wedding</h1>
+				<h2 class="font-sans text-emerald-900 dark:text-emerald-100 text-4xl pb-8 xl:text-2xl font-semibold">May 18, 2024</h2>
+			</div>
+		</div>
+	
+		<div id="navigation" class="w-full py-3 my-4">
+			<div class="container mx-auto px-2 flex justify-center gap-x-2">
+				<div class="w-auto">
+					<a id="prep" href="javascript:navigate('prep')" class="bg-teal-300 dark:bg-teal-800 dark:hover:bg-teal-700 dark:data-[active]:bg-teal-600 rounded-full block font-sans text-4xl xl:text-lg px-6 py-4 xl:py-2 xl:px-4 dark:text-teal-50 font-semibold data-[active]:font-bold">Prep</a>
+				</div>
+				<div class="w-auto">
+					<a id="ceremony" href="javascript:navigate('ceremony')" class="bg-teal-300 dark:bg-teal-800 dark:hover:bg-teal-700 dark:data-[active]:bg-teal-600 rounded-full block font-sans text-4xl xl:text-lg px-6 py-4 xl:py-2 xl:px-4 dark:text-teal-50 font-semibold data-[active]:font-bold">Ceremony</a>
+				</div>
+				<div class="w-auto">
+					<a id="post" href="javascript:navigate('post')" class="bg-teal-300 dark:bg-teal-800 dark:hover:bg-teal-700 dark:data-[active]:bg-teal-600 rounded-full block font-sans text-4xl xl:text-lg px-6 py-4 xl:py-2 xl:px-4 dark:text-teal-50 font-semibold data-[active]:font-bold">Post-Ceremony</a>
+				</div>
+				<div class="w-auto">
+					<a id="dinner" href="javascript:navigate('dinner')" class="bg-teal-300 dark:bg-teal-800 dark:hover:bg-teal-700 dark:data-[active]:bg-teal-600 rounded-full block font-sans text-4xl xl:text-lg px-6 py-4 xl:py-2 xl:px-4 dark:text-teal-50 font-semibold data-[active]:font-bold">Dinner</a>
+				</div>
+				<div class="w-auto">
+					<a id="afterparty" href="javascript:navigate('afterparty')" class="bg-teal-300 dark:bg-teal-800 dark:hover:bg-teal-700 dark:data-[active]:bg-teal-600 rounded-full block font-sans text-4xl xl:text-lg px-6 py-4 xl:py-2 xl:px-4 dark:text-teal-50 font-semibold data-[active]:font-bold">Afterparty</a>
+				</div>
+			</div>
+		</div>
+	
+		<div class="lg:container mx-auto px-2">
+			<div id="pig" class="mb-4">
+	
+			</div>
 		</div>
 	</div>
-	<div class="lg:container mx-auto px-2">
-		<div id="pig" class="mb-4">
 
-		</div>
-	</div>
 	<div id="footer" class="bg-emerald-100 dark:bg-emerald-900 w-full">
 		<div class="container mx-auto px-2 flex justify-center">
 			<p class="font-sans text-emerald-950 dark:text-emerald-50 py-8">Copyright © 2024 Josiah Henson</p>

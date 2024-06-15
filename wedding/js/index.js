@@ -98,6 +98,7 @@ function navigate(page) {
  */
 
 window.onload = function () {
+    document.getElementById("prep").setAttribute("data-active", "");
     pig = new Pig(images, pigOptions);
     pig.enable();
 

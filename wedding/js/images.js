@@ -1286,5 +1286,304 @@ let dinnerImages = [
 ];
 
 let afterpartyImages = [
-
+    {
+        "dateTaken":  "\/Date(1716071787000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09347.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716071803000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09349.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716071943000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09362.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072067000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09370.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072082000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09376.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072143000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09380.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072598000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09392.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072715000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09403.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716072838000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09414.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716073016000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09424.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716073620000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09431.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074254000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09447.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074268000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09449.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074270000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09452.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074275000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09459.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074317000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09485.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074353000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09489.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716074364000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09495.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716075968000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09514.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716075996000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09518.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076063000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09525.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076073000)\/",
+        "aspectRatio":  1.25,
+        "filename":  "DSC09540.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076083000)\/",
+        "aspectRatio":  1.25,
+        "filename":  "DSC09552.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076119000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09591.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076145000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09623.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076249000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09638.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076255000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09650.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076256000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09653.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076263000)\/",
+        "aspectRatio":  0.75,
+        "filename":  "DSC09659.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716076347000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "P1140033.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716078273000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "P1140084.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716078547000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09733.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716078615000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09742.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716078805000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09761.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079017000)\/",
+        "aspectRatio":  1.25,
+        "filename":  "DSC09800.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079043000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09809.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079474000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09829.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079682000)\/",
+        "aspectRatio":  1,
+        "filename":  "P1140097.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079695000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "P1140113.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079720000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "P1140130.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716079728000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "P1140139.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716080453000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "P1140148.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716080493000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09860.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716080518000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09873.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716080650000)\/",
+        "aspectRatio":  0.8,
+        "filename":  "DSC09888.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716082554000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09990.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716082581000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09996.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716082817000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC00009.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716082834000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00015.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716083053000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00033.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716083056000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC00038.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716083146000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00039.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716083326000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC00070.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716084274000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC00103.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716084611000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00128.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716085183000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00143.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716085987000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00146.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716086296000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00165.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716086302000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC00171.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716087483000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DJI_0217.jpg"
+    }
 ];

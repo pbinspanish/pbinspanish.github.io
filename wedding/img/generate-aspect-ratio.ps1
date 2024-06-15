@@ -5,7 +5,7 @@
 [void][System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 
 # Specify the path to the folder containing the images
-$folderPath = "J:\pbinspanish.hugo\static\wedding\img\dinner\full"
+$folderPath = "J:\pbinspanish.hugo\static\wedding\img\afterparty\full"
 
 # Get all image files in the folder
 $imageFiles = Get-ChildItem -Path $folderPath -File | Where-Object { $_.Extension -match '\.(jpg|jpeg|png|gif|bmp)$' }

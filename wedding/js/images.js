@@ -1248,7 +1248,41 @@ let postImages = [
 ];
 
 let dinnerImages = [
-
+    {
+        "dateTaken":  "\/Date(1716060743000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09294.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716060844000)\/",
+        "aspectRatio":  1.5,
+        "filename":  "DSC09304.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716061008000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09325.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716061011000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09327.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716061078000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09334.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716062758000)\/",
+        "aspectRatio":  0.667,
+        "filename":  "DSC09340.jpg"
+    },
+    {
+        "dateTaken":  "\/Date(1716065485000)\/",
+        "aspectRatio":  1.778,
+        "filename":  "P1140022.jpg"
+    }
 ];
 
 let afterpartyImages = [

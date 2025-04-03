@@ -4,7 +4,7 @@
     <title>Projects on Josiah Henson</title>
     <link>http://pbinspanish.github.io/projects/</link>
     <description>Recent content in Projects on Josiah Henson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-ca</language>
     <atom:link href="http://pbinspanish.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>http://pbinspanish.github.io/projects/yashpatelphotos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://pbinspanish.github.io/projects/yashpatelphotos/</guid>
-      <description>Respository of my adventures in photography, with Yash Patel. For every one you see, there&amp;rsquo;s a thousand you don&amp;rsquo;t.</description>
+      <description>&lt;p&gt;Respository of my adventures in photography, with &lt;a class=&#34;underline hover:text-cyan-400 hover:dark:text-cyan-600 transition-colors duration-150 ease-in-out&#34; href=&#34;https://darkishlocket10.github.io/&#34;&gt;Yash Patel&lt;/a&gt;. For every one you see, there&amp;rsquo;s a thousand you don&amp;rsquo;t.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Show &amp; Movie Posters</title>
       <link>http://pbinspanish.github.io/projects/posters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://pbinspanish.github.io/projects/posters/</guid>
-      <description>Creating beautiful, consistent posters for TV &amp;amp; Movies that have been downloaded over 12,000 times, hosted on ThePosterDB.</description>
+      <description>&lt;p&gt;Creating beautiful, consistent posters for TV &amp;amp; Movies that have been downloaded over 12,000 times, hosted on ThePosterDB.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

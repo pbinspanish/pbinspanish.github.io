@@ -1,83 +1,102 @@
-// from: https://www.aleksandrhovhannisyan.com/blog/the-perfect-theme-switch/
+// adapted from https://www.aleksandrhovhannisyan.com/blog/the-perfect-theme-switch/
 
-const THEME_STORAGE_KEY = 'theme';
+const THEME_STORAGE_KEY = "theme";
 const THEME_OWNER = document.documentElement;
 
+// get the stored theme and apply it
 const cachedTheme = localStorage.getItem(THEME_STORAGE_KEY);
 if (cachedTheme) {
-	THEME_OWNER.dataset[THEME_STORAGE_KEY] = cachedTheme;
+  THEME_OWNER.dataset[THEME_STORAGE_KEY] = cachedTheme;
+} else {
+  applyAutoTheme();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-	const themePicker = document.getElementById('theme-picker');
-	if (!themePicker) return;
+document.addEventListener("DOMContentLoaded", () => {
+  const themePicker = document.getElementById("theme-picker");
+  if (!themePicker) return;
 
-	const systemThemeInput = themePicker.querySelector('input[checked]');
-	if (cachedTheme && cachedTheme !== systemThemeInput.value) {
-		systemThemeInput.removeAttribute('checked');
-		themePicker.querySelector(`input[value="${cachedTheme}"]`).setAttribute('checked', '');
-		themeElements(cachedTheme);
-	}
+  // set the theme picker to match the cached theme
+  const systemThemeInput = themePicker.querySelector("input[checked]");
+  if (cachedTheme && cachedTheme !== systemThemeInput.value) {
+    systemThemeInput.removeAttribute("checked");
+    themePicker
+      .querySelector(`input[value="${cachedTheme}"]`)
+      .setAttribute("checked", "");
 
-	themePicker.addEventListener('change', (e) => {
-		const theme = e.target.value;
-		if (theme === systemThemeInput.value) {
-			delete THEME_OWNER.dataset[THEME_STORAGE_KEY];
-			localStorage.removeItem(THEME_STORAGE_KEY);
-		} else {
-			THEME_OWNER.dataset[THEME_STORAGE_KEY] = theme;
-			localStorage.setItem(THEME_STORAGE_KEY, theme);
-		}
+    themeElements(cachedTheme);
+  }
 
-		// styling
-		themeElements(theme);
-	});
+  themePicker.addEventListener("change", (e) => {
+    const theme = e.target.value;
+    if (theme === "auto") {
+      applyAutoTheme();
+      themeElements("auto");
+    } else {
+      THEME_OWNER.dataset[THEME_STORAGE_KEY] = theme;
+      localStorage.setItem(THEME_STORAGE_KEY, theme);
 
-	// Popup handling
-	const themeMenu = document.getElementById('theme-menu');
-	const themeMenuButton = document.getElementById('theme-menu-button');
+      themeElements(theme);
+    }
+  });
 
-	// toggle theme-menu visibility when clicking theme-menu-button
-	themeMenuButton.addEventListener('click', () => {
-		console.log("test");
-		themeMenu.classList.toggle('hidden');
-	});
+  // Popup handling
+  const themeMenu = document.getElementById("theme-menu");
+  const themeMenuButton = document.getElementById("theme-menu-button");
 
-	// hide theme-menu when clicking outside of it
-	document.addEventListener('click', (event) => {
-		if (!themeMenu.contains(event.target) && !themeMenuButton.contains(event.target)) {
-			themeMenu.classList.add('hidden');
-		}
-	});
+  // toggle theme-menu visibility when clicking theme-menu-button
+  themeMenuButton.addEventListener("click", () => {
+    themeMenu.classList.toggle("hidden");
+  });
+
+  // hide theme-menu when clicking outside of it
+  document.addEventListener("click", (event) => {
+    if (
+      !themeMenu.contains(event.target) &&
+      !themeMenuButton.contains(event.target)
+    ) {
+      themeMenu.classList.add("hidden");
+    }
+  });
 });
 
+function applyAutoTheme() {
+  if (
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  ) {
+    THEME_OWNER.dataset[THEME_STORAGE_KEY] = "dark";
+  } else {
+    THEME_OWNER.dataset[THEME_STORAGE_KEY] = "light";
+  }
+}
+
 function themeElements(theme) {
-	const autoCheck = document.getElementById('auto-check');
-	const lightCheck = document.getElementById('light-check');
-	const darkCheck = document.getElementById('dark-check');
+  const autoCheck = document.getElementById("auto-check");
+  const lightCheck = document.getElementById("light-check");
+  const darkCheck = document.getElementById("dark-check");
 
-	const selectedThemeIcon = document.getElementById('selected-theme-icon');
+  const selectedThemeIcon = document.getElementById("selected-theme-icon");
 
-	autoCheck.classList.add('invisible');
-	lightCheck.classList.add('invisible');
-	darkCheck.classList.add('invisible');
+  autoCheck.classList.add("invisible");
+  lightCheck.classList.add("invisible");
+  darkCheck.classList.add("invisible");
 
-	selectedThemeIcon.classList.remove('icon-sun');
-	selectedThemeIcon.classList.remove('icon-moon');
-	selectedThemeIcon.classList.remove('icon-sun-moon');
+  selectedThemeIcon.classList.remove("icon-sun");
+  selectedThemeIcon.classList.remove("icon-moon");
+  selectedThemeIcon.classList.remove("icon-sun-moon");
 
-	switch (theme) {
-		case 'light':
-			lightCheck.classList.remove('invisible');
-			selectedThemeIcon.classList.add('icon-sun');
-			break;
-		case 'dark':
-			darkCheck.classList.remove('invisible');
-			selectedThemeIcon.classList.add('icon-moon');
-			break;
-		case 'auto':
-			autoCheck.classList.remove('invisible');
-			selectedThemeIcon.classList.add('icon-sun-moon');
-			break;
-	}
+  switch (theme) {
+    case "light":
+      lightCheck.classList.remove("invisible");
+      selectedThemeIcon.classList.add("icon-sun");
+      break;
+    case "dark":
+      darkCheck.classList.remove("invisible");
+      selectedThemeIcon.classList.add("icon-moon");
+      break;
+    case "auto":
+      autoCheck.classList.remove("invisible");
+      selectedThemeIcon.classList.add("icon-sun-moon");
+      break;
+  }
 }

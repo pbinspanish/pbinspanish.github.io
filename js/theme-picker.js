@@ -68,6 +68,7 @@ function applyAutoTheme() {
   } else {
     THEME_OWNER.dataset[THEME_STORAGE_KEY] = "light";
   }
+  localStorage.removeItem(THEME_STORAGE_KEY);
 }
 
 function themeElements(theme) {
